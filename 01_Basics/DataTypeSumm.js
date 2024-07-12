@@ -2,6 +2,11 @@
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
+// JavaScript is a dynamically typed language.
+// This means that the type of a variable is determined at runtime, 
+// not at compile time. You don't need to declare the type of a variable when 
+// you create it, and the type can change during the program's execution.
+
 const score = 100
 const scoreValue = 100.3
 
@@ -22,16 +27,20 @@ console.log(id === anotherId);
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["shaktiman", "naagraj", "doga"]; //arrays
+
+// curly braces k andr object hai
 let myObj = {
     name: "hitesh",
     age: 22,
 }
 
+//function
 const myFunction = function(){
     console.log("Hello world");
 }
 
+// to know data type 
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
