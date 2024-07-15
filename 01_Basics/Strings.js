@@ -14,6 +14,8 @@ const gameName = new String('hitesh-hc-com') // one more way to declare string
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
+console.log("ANSWER");
+console.log(gameName.at(-1));
 console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
