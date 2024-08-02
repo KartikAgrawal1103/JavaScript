@@ -7,7 +7,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // Mo
 
 const gameName = new String('hitesh-hc-com') // one more way to declare string 
 
-// console.log(gameName[0]);
+// console.log(gameName[0]); // 0 pr ky presnt hai 
 // console.log(gameName.__proto__);
 
 

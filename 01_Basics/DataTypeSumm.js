@@ -44,3 +44,27 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primituve) , Heap(non - primitive)
+
+let channelName = "AnyYouthubeName"
+
+let anothername = channelName
+anothername = "ChangedYtNamed"
+
+console.log(channelName)
+console.log(anothername)
+
+let userOne = {
+    email: "@gmail.com",
+    upi: "@gpay"
+}
+
+let userTwo = userOne
+
+userTwo.email = "@yahoo.com"
+
+//dono user k output changes ho chuki haitoh yahoo .com
