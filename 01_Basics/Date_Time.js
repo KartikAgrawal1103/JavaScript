@@ -20,7 +20,7 @@ let mCustomDate = new Date("2024-08-15") //way to declare date YYYY MM DD
 let timeStamp = Date.now()
 console.log(timeStamp)
 // console.log(timeStamp.toLocaleString())
-console.log(myCustomDate.getTime()) // mnore gunction arwe there to get month , get day, get year etc EXPLORE
+console.log(myCustomDate.getTime()) // mnore gunction arwe there to (get month+1) Plus 1 to get correct month , get day, get year etc EXPLORE
 console.log(Date.now())
 console.log(Math.floor(Date.now()/1000))
 
