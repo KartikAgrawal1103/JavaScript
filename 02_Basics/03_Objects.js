@@ -34,7 +34,6 @@ console.log(Juser.mySyn)
 console.log(typeof Juser.mySyn)
 console.log(Juser[mySyn2]) //dekh yaha bhi change hai hai while printing //IMP 
 console.log(typeof Juser[mySyn2]) // dekh yuaha bhi change h
-
 // o/p -> 
 // @google.com
 // @google.com
@@ -43,3 +42,32 @@ console.log(typeof Juser[mySyn2]) // dekh yuaha bhi change h
 // string
 // Key2Value
 // string
+
+// Juser.email = "Kartik@gmail.com"
+// //Object.freeze(Juser)
+// Juser.email = "Agrawal@gmail.com"
+// console.log(Juser)
+
+// o/p -> + dekh freeze krne se kuch bhi aasing karo jo pehle kardi value wahi rehti h 
+// {
+//     name: 'Hitesh',
+//     'full name': 'Hirsh Choudhary',
+//     mySyn: 'Key1Value',
+//     age: 18,
+//     location: 'jaipur',
+//     email: 'Kartik@gmail.com',
+//     isLoggedIn: false,
+//     LastLoginDays: [ 'monday', 'Saturday' ],
+//     [Symbol(key2)]: 'Key2Value'
+//   }
+
+
+Juser.greeting = function(){
+    console.log("Hello JS user");
+}
+Juser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+}
+
+console.log(Juser.greeting());
+console.log(Juser.greetingTwo());
