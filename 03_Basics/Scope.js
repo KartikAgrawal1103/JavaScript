@@ -21,7 +21,7 @@ function one(){
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);  //
+    // console.log(website);  //access nhi kr payega func one, website o kuki chota bade se le skta hai but bada chote se nahi
 
      two()
 
