@@ -32,6 +32,7 @@ const obj4 = {5: "a", 6: "b"}
 //console.log(obj3);
 
 
+
 //database se dfata ese aate hai  user k dekh niche 
 const users = [
     {
@@ -58,6 +59,9 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));  //yeh pta krta hai ki ky vo key hai hai database me ya nhi just to check 
 
+
+//DESTURDTURING kar he 
+// destructuring Array / Object dono ki hoti hai
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -66,10 +70,36 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
-
+const {courseInstructor: instructor} = course  // yeh dekh chota r DESTURCTURE kara hai tune
+// ab ek cheexze notice karo dekh upr tune courseinstructor liya hai jo ki sachme hi kaafi bada naam hai 
+//to uskochota karne k liye tune usko sorf instructor naam dekr DESTRUCTURE kardia ... samjha
 // console.log(courseInstructor);
 console.log(instructor);
+
+// ### Benefits of Destructuring
+
+// 1. **Simplifies Code**: Extract multiple properties from an object in a single statement.
+// 2. **Renaming Variables**: Rename variables to shorter or more convenient names.
+// 3. **Default Values**: Set default values if the property doesn't exist in the object.
+// 4. **Nested Objects**: Easily destructure nested objects.
+
+// ### Important Points for Interviews
+
+// 1. **Destructuring Syntax**: Understand how to use destructuring to extract values and rename variables.
+//    ```javascript
+//    const { courseInstructor: instructor } = course;
+//    ```
+
+// 2. **Default Values in Destructuring**: Be aware that you can provide default values when destructuring.
+//    ```javascript
+//    const { duration = "3 hours" } = course;
+//    ```
+
+// These points cover the main advantages and key aspects of destructuring that can be useful in coding and may come up in interviews.
+
+
+
+
 
 // {
 //     "name": "hitesh",
